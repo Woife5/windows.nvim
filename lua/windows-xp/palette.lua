@@ -15,19 +15,34 @@ local greens = {
 	text_light = "#009454",
 }
 
+local reds = {
+	light = "#eb7c63",
+	primary = "#d1654f",
+	dark = "#79180d",
+	error = "#ff0000",
+}
+
+local oranges = {
+	text = "#c26c2f",
+}
+
 local purples = {
-	text = "#C586C0",
+	text = "#c586c0",
 }
 
 local tokens = {
 	type = blues.primary,
 	comment = "#6a737d",
-	variable = "#79180d",
-	number = "#79180d",
+	statement = oranges.text,
+	variable = oranges.text,
+	number = reds.light,
+	keyword = blues.text,
 	string = greens.text_light,
 	jsx = purples.text,
 	func = blues.primary,
-	special = blues.text_active,
+	special = blues.primary,
+	conditional = reds.primary,
+	include = reds.light,
 }
 
 return {
@@ -37,6 +52,8 @@ return {
 	greens = greens,
 	grays = grays,
 	purples = purples,
+	oranges = oranges,
+	reds = reds,
 	window = {
 		bg = "#f0eee4",
 		border = "#757267",
