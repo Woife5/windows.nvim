@@ -8,6 +8,7 @@ local blues = {
 
 local grays = {
 	light_bg = "#f0eee4",
+	light_text = "#bdbcb9",
 }
 
 local greens = {
@@ -89,7 +90,7 @@ return {
 	reference = "#323232",
 	folder = "#c8c8c8",
 	hint = "#4bc1fe",
-	info = "#FFCC66",
+	info = "#ffcc66",
 	warn = "#ff8800",
 	error = "#F44747",
 	other = "#7c3aed",
