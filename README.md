@@ -1,4 +1,4 @@
-# Neovim Windows color themes
+# Windows colorschemes for Neovim
 
 ---
 
