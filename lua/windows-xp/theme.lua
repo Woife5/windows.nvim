@@ -393,7 +393,66 @@ theme.set_highlights = function()
   hl(0, "CmpItemKindReference", { fg = c.reds.primary, bg = 'NONE' })
   hl(0, "CmpItemKindColor", { fg = c.purples.text, bg = 'NONE' })
 
-  -- Navic
+  -- Blink.cmp
+  -- Menu & UI
+  hl(0, "BlinkCmpMenu", { fg = c.window.fg, bg = c.window.bg })
+  hl(0, "BlinkCmpMenuBorder", { fg = c.window.border, bg = c.window.bg })
+  hl(0, "BlinkCmpMenuSelection", { fg = 'NONE', bg = c.blues.highlight })
+  hl(0, "BlinkCmpScrollBarThumb", { fg = 'NONE', bg = c.grays.dark_text })
+  hl(0, "BlinkCmpScrollBarGutter", { fg = 'NONE', bg = c.grays.dark_bg })
+  -- Labels
+  hl(0, "BlinkCmpLabel", { fg = c.window.fg, bg = 'NONE' })
+  hl(0, "BlinkCmpLabelDeprecated", { fg = c.grays.light_text, bg = 'NONE', strikethrough = true })
+  hl(0, "BlinkCmpLabelMatch", { fg = c.blues.text, bg = 'NONE', bold = true })
+  hl(0, "BlinkCmpLabelDetail", { fg = c.grays.dark_text, bg = 'NONE' })
+  hl(0, "BlinkCmpLabelDescription", { fg = c.grays.dark_text, bg = 'NONE' })
+  -- Kind (default)
+  hl(0, "BlinkCmpKind", { fg = c.blues.text_light, bg = 'NONE' })
+  -- Functions/Methods - purple
+  hl(0, "BlinkCmpKindFunction", { fg = c.purples.text, bg = 'NONE' })
+  hl(0, "BlinkCmpKindMethod", { fg = c.purples.text, bg = 'NONE' })
+  hl(0, "BlinkCmpKindConstructor", { fg = c.purples.text, bg = 'NONE' })
+  -- Types/Classes - blue (primary)
+  hl(0, "BlinkCmpKindClass", { fg = c.blues.primary, bg = 'NONE' })
+  hl(0, "BlinkCmpKindEnum", { fg = c.blues.primary, bg = 'NONE' })
+  hl(0, "BlinkCmpKindInterface", { fg = c.blues.primary, bg = 'NONE' })
+  hl(0, "BlinkCmpKindStruct", { fg = c.blues.primary, bg = 'NONE' })
+  hl(0, "BlinkCmpKindTypeParameter", { fg = c.blues.primary, bg = 'NONE' })
+  -- Variables/Fields - light blue
+  hl(0, "BlinkCmpKindVariable", { fg = c.blues.text, bg = 'NONE' })
+  hl(0, "BlinkCmpKindField", { fg = c.blues.text, bg = 'NONE' })
+  hl(0, "BlinkCmpKindProperty", { fg = c.blues.text, bg = 'NONE' })
+  hl(0, "BlinkCmpKindEnumMember", { fg = c.blues.text_light, bg = 'NONE' })
+  -- Constants - orange
+  hl(0, "BlinkCmpKindConstant", { fg = c.oranges.text, bg = 'NONE' })
+  -- Keywords
+  hl(0, "BlinkCmpKindKeyword", { fg = c.tokens.keyword, bg = 'NONE' })
+  hl(0, "BlinkCmpKindOperator", { fg = c.fg, bg = 'NONE' })
+  -- Modules/Namespaces
+  hl(0, "BlinkCmpKindModule", { fg = c.reds.light, bg = 'NONE' })
+  -- Values
+  hl(0, "BlinkCmpKindValue", { fg = c.oranges.text, bg = 'NONE' })
+  hl(0, "BlinkCmpKindUnit", { fg = c.oranges.text, bg = 'NONE' })
+  -- Text/Snippets - green
+  hl(0, "BlinkCmpKindText", { fg = c.greens.text_light, bg = 'NONE' })
+  hl(0, "BlinkCmpKindSnippet", { fg = c.greens.primary, bg = 'NONE' })
+  -- Files/Folders - gray
+  hl(0, "BlinkCmpKindFile", { fg = c.grays.dark_text, bg = 'NONE' })
+  hl(0, "BlinkCmpKindFolder", { fg = c.grays.dark_text, bg = 'NONE' })
+  -- Events - yellow
+  hl(0, "BlinkCmpKindEvent", { fg = c.warn, bg = 'NONE' })
+  -- References
+  hl(0, "BlinkCmpKindReference", { fg = c.reds.primary, bg = 'NONE' })
+  hl(0, "BlinkCmpKindColor", { fg = c.purples.text, bg = 'NONE' })
+  -- Documentation & Signature
+  hl(0, "BlinkCmpDoc", { fg = c.window.fg, bg = c.window.bg })
+  hl(0, "BlinkCmpDocBorder", { fg = c.window.border, bg = c.window.bg })
+  hl(0, "BlinkCmpDocSeparator", { fg = c.grays.dark_text, bg = c.window.bg })
+  hl(0, "BlinkCmpDocCursorLine", { fg = 'NONE', bg = c.blues.highlight })
+  hl(0, "BlinkCmpGhostText", { fg = c.grays.light_text, bg = 'NONE' })
+  hl(0, "BlinkCmpSignatureHelp", { fg = c.window.fg, bg = c.window.bg })
+  hl(0, "BlinkCmpSignatureHelpBorder", { fg = c.window.border, bg = c.window.bg })
+  hl(0, "BlinkCmpSignatureHelpActiveParameter", { fg = c.blues.text_active, bg = c.blues.highlight, bold = true })
   -- hl(0, "NavicIconsFile", { link = 'CmpItemKindFile' })
   -- hl(0, "NavicIconsModule", { link = 'CmpItemKindModule' })
   -- hl(0, "NavicIconsNamespace", { link = 'CmpItemKindClass' })

@@ -22,4 +22,4 @@ Using lazy.nvim:
 
 ## Colorschemes
 
--   `windows-xp` (WIP)
+-   `windows-xp`
