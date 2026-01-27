@@ -23,3 +23,4 @@ Using lazy.nvim:
 ## Colorschemes
 
 -   `windows-xp`
+-   `windows-classic`
